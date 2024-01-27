@@ -1,0 +1,30 @@
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Work Sans";
+    color:  #131313;
+}
+nav{
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500
+    font-size: 18px;
+    font-family: "Work Sans";
+}
+li a{
+    text-decoration: none;
+    color: #424242;
+}
