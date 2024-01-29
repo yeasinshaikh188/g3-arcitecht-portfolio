@@ -1,11 +1,23 @@
 /* sheared styles */
-.btn-primary{
-    
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    padding: 20px 25px;
+    margin-bottom: 20px;
 }
+
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 200px;
+    padding: 50px 240px;
 }
 
 .nav-title {
@@ -16,7 +28,6 @@ header {
 }
 
 nav {
-    padding: 50px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,12 +61,38 @@ li a {
     font-family: "Work Sans";
     font-size: 64px;
     font-weight: 700;
-    color:  #131313;
+    color: #131313;
 }
 
 .banner-description {
     font-family: "Work Sans";
     font-size: 16px;
     font-weight: 400;
-    color:  #727272;
+    color: #727272;
+}
+.banner-img{
+    width: 100%;
+    
+}
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+       flex-direction: column;
+    }
+    
+}
+/* tab or medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    
 }
